@@ -1,6 +1,6 @@
 Class {
 	#name : #BaselineOfTelescopeRoassal,
-	#superclass : #Object,
+	#superclass : #BaselineOf,
 	#category : #BaselineOfTelescopeRoassal
 }
 
