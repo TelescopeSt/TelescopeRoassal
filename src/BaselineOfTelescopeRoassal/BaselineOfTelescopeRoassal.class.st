@@ -32,7 +32,9 @@ BaselineOfTelescopeRoassal >> roassal2: spec [
 
 	spec
 		baseline: 'Roassal2'
-		with: [ spec repository: 'github://ObjectProfile/Roassal2:d4448204d61e6e9c2e4f1bb34a2a932fa3437c90/src' ]
+		with: [ spec
+				loads: #('NoGlamour');
+				repository: 'github://ObjectProfile/Roassal2:d4448204d61e6e9c2e4f1bb34a2a932fa3437c90/src' ]
 ]
 
 { #category : #dependencies }
