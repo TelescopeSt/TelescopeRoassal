@@ -340,6 +340,12 @@ TLRoassal2Connector >> onNode: aNode nestNodes: aGroupOfNodes [
 ]
 
 { #category : #'instance creation' }
+TLRoassal2Connector >> open: aTLVisualization inWindowSized: aDimension titled: aString [ 
+	aTLVisualization generateWith: self.
+	self openViewInWindowSized: aDimension titled: aString
+]
+
+{ #category : #'instance creation' }
 TLRoassal2Connector >> openViewInWindowSized: aSize titled: aTitle [
 	| window |
 	window := self view openInWindowSized: aSize titled: aTitle.
